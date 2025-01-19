@@ -65,3 +65,13 @@
     transform: scale(1.1); /* Slight zoom effect on hover */
   }
   
+
+  @media screen and (max-width: 768px) {
+    .flag,
+  .notification,
+  .user,
+  .setting,
+  .profile {
+    display: none;
+  }
+  }

@@ -23,7 +23,7 @@ import calendar from '../Images/calendar.png'
 function Menu({menuOpen}) {
     console.log(menuOpen)
   return (<>{menuOpen && (
-        <div className="menuBody">
+        <div className="menuBody" style={{position:'fixed', zIndex:10}}>
             <p className="overview">OVERVIEW</p>
             <div className="option">
                 <img src={app} alt="" className="icon" />

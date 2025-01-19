@@ -4,6 +4,7 @@
     display: block;
     position: sticky;
     top: 45px;
+    background-color: white;
     box-shadow: 0 5px 26px rgba(0, 0, 0, 0.15);
 }
 
@@ -35,4 +36,13 @@
     bottom: 14px;
     left:10px;
     font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .menuBody{
+        width: 100%;
+        position: fixed;
+        z-index: 10;
+    }
+
 }
