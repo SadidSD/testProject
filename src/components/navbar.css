@@ -1,0 +1,67 @@
+
+.navBody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white; 
+    padding: 10px 20px;
+    position: sticky;
+    top:0;
+    z-index: 100;
+  }
+  
+  .leftside {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .menu1{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+  
+  .search {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+  
+  .searchBox {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: #f0f0f0; 
+    color: #524e4e;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  
+  
+  .rightside {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  
+  .flag,
+  .notification,
+  .user,
+  .setting,
+  .profile {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .flag:hover,
+  .notification:hover,
+  .user:hover,
+  .setting:hover,
+  .profile:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+  }
+  

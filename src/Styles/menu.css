@@ -1,0 +1,38 @@
+.menuBody{
+    width: 180px;
+    height: 95.5vh;
+    display: block;
+    position: sticky;
+    top: 45px;
+    box-shadow: 0 5px 26px rgba(0, 0, 0, 0.15);
+}
+
+.overview, .management{
+    margin-left: 10px;
+    padding: 0;
+}
+
+.option{
+    display: flex;
+    border-radius: 15px;
+    height: 25px;
+    padding: 5px;
+    padding-right: 30px;
+}
+
+.option:hover{
+    background-color: rgb(196, 193, 193);
+    cursor: pointer;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+
+.text{
+    position: relative;
+    bottom: 14px;
+    left:10px;
+    font-size: 15px;
+}
