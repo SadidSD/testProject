@@ -10,7 +10,7 @@ function App() {
     setMenuOpen(!menuOpen);
 };
   return (
-    <div >
+    <div style={{overflowX:'hidden'}}>
       <Navbar toggleMenu={toggleMenu}/>
       <div className="mainPage" style={{display:'flex'}}>
       <Menu menuOpen={menuOpen} />

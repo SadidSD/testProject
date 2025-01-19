@@ -11,7 +11,7 @@ import redDown from '../Images/redDown.png'
 
 function home({menuOpen}) {
   return (
-    <div className='homeBody'>
+    <div className='homeBody' style={menuOpen?{position:'fixed'}:{}}>
       <div className="topRow" style={menuOpen?{marginLeft:'30px'}:{marginLeft:'130px'}}>
         <div className='topLeftDiv'>
             <img src={topLeft} alt="" className="topLeft" />

@@ -41,8 +41,22 @@
 @media screen and (max-width: 768px) {
     .menuBody{
         width: 100%;
+        height: 100vh;
         position: fixed;
         z-index: 10;
+    }
+
+    .overview, .management{
+        font-size: 30px;
+    }
+
+    .icon{
+        height: 30px;
+        width: 30px;
+    }
+
+    .text{
+        font-size: 20px;
     }
 
 }
